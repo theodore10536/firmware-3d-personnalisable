@@ -1,4 +1,4 @@
-# THÉO20m
+# Firmware 3D personnalisable
 
 Firmware gratuit et open source en français, sous forme de prototype personnel, pour une Geeetech A20M modifiée à une extrudeuse logique. Basé sur **Marlin 2.1.2.10**, sous GPL-3.0-or-later.
 
@@ -6,7 +6,7 @@ Firmware gratuit et open source en français, sous forme de prototype personnel,
 
 ## Ce que prépare ce profil
 
-- Nom affiché personnalisable, **THÉO20m** par défaut ; menus Marlin en français, avec accents.
+- Nom affiché personnalisable, **Imprimante 3D** par défaut ; menus Marlin en français, avec accents.
 - Une extrudeuse logique et un moteur d'extrusion dans ce prototype ; mélange bicolore désactivé. Le nombre physique de moteurs reste à confirmer.
 - USB à 250000 bauds ; processeur ATmega2560.
 - Nivellement **UBL manuel**, réglage fin Z, Linear Advance, pause avancée et reprise après coupure.
@@ -17,13 +17,13 @@ Les traductions sont celles fournies par Marlin : les commandes G-code et les id
 
 ## Choisir le nom de sa machine
 
-Chacun choisit librement le nom affiché. **THÉO20m est le nom par défaut**, pas une obligation. À l’étape de préparation, ajouter l’option `--nom` :
+Chacun choisit librement le nom affiché. Le nom par défaut est **Imprimante 3D**. Chacun peut choisir le sien, par exemple « THÉO20m » ou « Fred 20M ». À l’étape de préparation, ajouter l’option `--nom` :
 
 ```sh
 .venv/bin/python scripts/preparer.py --nom "Ma machine"
 ```
 
-Utiliser 1 à 16 caractères imprimables ; les lettres latines sont conseillées pour cet écran. Le changement s’applique aux sources préparées avant compilation. Les empreintes et le rapport fournis concernent le profil par défaut ; un nom personnalisé produit un autre binaire. Le nom du dépôt GitHub reste THEO20m.
+Utiliser 1 à 16 caractères imprimables ; les lettres latines sont conseillées pour cet écran. Le changement s’applique aux sources préparées avant compilation. Les empreintes et le rapport fournis concernent le profil par défaut ; un nom personnalisé produit un autre binaire. Le nom de la machine est indépendant du nom du projet public.
 
 ## Compiler
 
@@ -42,7 +42,7 @@ La sortie de compilation est `build/Marlin-2.1.2.10/.pio/build/mega2560/firmware
 
 ## Vérification réalisée
 
-Compilation `mega2560` réussie : 209290 octets de flash sur 253952 et 7069 octets de RAM statique sur 8192. Le nom UTF-8 THÉO20m et un message français sont présents dans le binaire. Les fichiers de configuration publiés sont identiques à ceux compilés. Voir [le rapport](docs/COMPILATION.json). La marge de RAM restante doit être validée en fonctionnement ; aucun test sur machine ni transfert de maillage n’a été réalisé.
+Le rapport de compilation est fourni dans [docs/COMPILATION.json](docs/COMPILATION.json). Il concerne le nom par défaut « Imprimante 3D » ; un nom personnalisé produit un autre binaire. Aucun test sur machine ni transfert de maillage n’a été réalisé.
 
 ## Avant installation
 
@@ -60,6 +60,6 @@ Les configurations dérivent du projet Marlin. Les modifications et scripts de c
 
 ## Télécharger et partager gratuitement
 
-Le projet est disponible publiquement sur [GitHub](https://github.com/theodore10536/THEO20m). Le bouton **Code → Download ZIP** permet de télécharger les sources gratuitement. Vous pouvez les utiliser, les modifier et les redistribuer selon la licence GPL-3.0-or-later, en conservant les mentions de licence et en fournissant les sources requises.
+Le projet est disponible publiquement sur [GitHub](https://github.com/theodore10536/firmware-3d-personnalisable). Le bouton **Code → Download ZIP** permet de télécharger les sources gratuitement. Vous pouvez les utiliser, les modifier et les redistribuer selon la licence GPL-3.0-or-later, en conservant les mentions de licence et en fournissant les sources requises.
 
 Les autres plateformes peuvent partager le lien de ce dépôt. Ne pas présenter ce prototype comme un firmware validé pour toutes les A20M. Le référencement par les moteurs de recherche dépend de leurs robots et n’est pas garanti.

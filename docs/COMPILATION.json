@@ -5,9 +5,9 @@
   "compilation": "SUCCESS",
   "ram_static_bytes": 7069,
   "ram_total_bytes": 8192,
-  "flash_bytes": 209290,
+  "flash_bytes": 209330,
   "flash_limit_bytes": 253952,
-  "machine_name_in_binary": "THÉO20m",
+  "machine_name_in_binary": "Imprimante 3D",
   "french_message_in_binary": "Err THERMIQUE",
   "lcd_language": "fr",
   "logical_extruders": 1,
@@ -15,9 +15,9 @@
   "flashed": false,
   "eeprom_migrated": false,
   "meshes_migrated": false,
-  "firmware_hex_sha256": "ee2eb0b1b6715190ab629e32d39a22ee1ff9144c44a3ec5831d1877813874c6b",
+  "firmware_hex_sha256": "c8249c5cfb5a7d2b70a098eabb91be0c83b56f573bdf0c7f2a7dbb170e8d1976",
   "config_sha256": {
-    "Configuration.h": "460fd64d7b40f5af1ff286bf319ef4281755b92a6a4df7c3a4e730c870c34bb3",
+    "Configuration.h": "ee879a86baf03ba484a127c64ec01d4abb2642043af4c11f89c62a492fa0e7cf",
     "Configuration_adv.h": "b35e3f23c15c952367695c6ca5ab4bd0b5e973528d060c6dda88dd6006aa4cc3"
   }
 }

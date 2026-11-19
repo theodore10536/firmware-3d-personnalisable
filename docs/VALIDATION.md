@@ -1,4 +1,4 @@
-# Validation et migration de THÉO20m
+# Validation et migration de Firmware 3D personnalisable
 
 ## Valeurs établies par lecture USB
 
@@ -39,7 +39,7 @@ Ces valeurs sont des réglages existants, pas une validation de leur adéquation
 | UBL | 5 × 5, X 5–250, Y 5–240 | reconstruction partielle ; sortie du relevé original incomplète |
 | Reprise après coupure | entrée 69, active bas | exemple officiel, câblage non vérifié |
 
-L'EEPROM d'origine entière est sauvegardée. Aucun maillage n'a encore été converti ou injecté dans THÉO20m. Ne pas considérer l'activation d'UBL à la compilation comme une restauration du calibrage.
+L'EEPROM d'origine entière est sauvegardée. Aucun maillage n'a encore été converti ou injecté dans Firmware 3D personnalisable. Ne pas considérer l'activation d'UBL à la compilation comme une restauration du calibrage.
 
 ## Ordre de vérification sur la machine
 
