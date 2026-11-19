@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0-alpha.1",
+  "upstream": "Marlin 2.1.2.10",
+  "environment": "mega2560",
+  "compilation": "SUCCESS",
+  "ram_static_bytes": 7069,
+  "ram_total_bytes": 8192,
+  "flash_bytes": 209290,
+  "flash_limit_bytes": 253952,
+  "machine_name_in_binary": "THÉO20m",
+  "french_message_in_binary": "Err THERMIQUE",
+  "lcd_language": "fr",
+  "logical_extruders": 1,
+  "hardware_verified": false,
+  "flashed": false,
+  "eeprom_migrated": false,
+  "meshes_migrated": false,
+  "firmware_hex_sha256": "ee2eb0b1b6715190ab629e32d39a22ee1ff9144c44a3ec5831d1877813874c6b",
+  "config_sha256": {
+    "Configuration.h": "460fd64d7b40f5af1ff286bf319ef4281755b92a6a4df7c3a4e730c870c34bb3",
+    "Configuration_adv.h": "b35e3f23c15c952367695c6ca5ab4bd0b5e973528d060c6dda88dd6006aa4cc3"
+  }
+}

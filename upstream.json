@@ -1,0 +1,14 @@
+{
+  "project": "THÉO20m",
+  "version": "0.1.0-alpha.1",
+  "status": "EXPERIMENTAL_NOT_MACHINE_VALIDATED",
+  "upstream": "https://github.com/MarlinFirmware/Marlin",
+  "tag": "2.1.2.10",
+  "archive_url": "https://codeload.github.com/MarlinFirmware/Marlin/tar.gz/refs/tags/2.1.2.10",
+  "archive_sha256": "a74217fa3dbbc4e59df265d2e47b40a1c102a6c5a406baa69fa1540efbdfea90",
+  "configuration_source": "https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2.10/config/examples/Geeetech/A20M",
+  "environment": "mega2560",
+  "platformio": "6.1.18",
+  "hardware_verified": false,
+  "flashed": false
+}

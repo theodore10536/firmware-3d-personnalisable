@@ -1,0 +1,12 @@
+.venv/
+.pio/
+.pio-core/
+build/
+__pycache__/
+*.hex
+*.bin
+*.elf
+*.zip
+eeprom*
+firmware-original*
+releve-usb*
